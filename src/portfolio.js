@@ -116,7 +116,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View Project Details",
-          url: "./project-details/project1.html"
+          url: "https://github.com/Moksh-2502/Hackathon"
         }
       ]
     },
@@ -124,11 +124,11 @@ const bigProjects = {
       image: require("./assets/images/project.jpeg"),
       projectName: "Real-time Data Analytics Platform",
       projectDesc:
-        "Built a real-time data analytics platform for e-commerce, processing huge amounts of data to provide insights. Technologies: React, Node.js, MongoDB.",
+        "An app and an integration for women safety with features like helpline button to ai detection you can read more on github",
       footerLink: [
         {
           name: "View Project Details",
-          url: "./project-details/project2.html"
+          url: "https://github.com/Mayank4352/Naari-Suraksha"
         }
       ]
     }
