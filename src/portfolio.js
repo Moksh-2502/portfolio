@@ -122,7 +122,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/project.jpeg"),
-      projectName: "Real-time Data Analytics Platform",
+      projectName: "Naari-Suraksha",
       projectDesc:
         "An app and an integration for women safety with features like helpline button to ai detection you can read more on github",
       footerLink: [
