@@ -42,7 +42,7 @@
                   <Button text="Contact me" href="#contact" />
                   {greeting.resumeLink && (
                     <a
-                      href={require("./resume.pdf")}
+                      href={require("/resume.pdf")}
                       download="Resume.pdf"
                       className="download-link-button"
                     >
