@@ -18,7 +18,7 @@ const greeting = {
     "I am an aspiring developer,from building ai models to full stack development i like to do it all as every project brings something new to learn"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1_ohgAmOu5aWnN_zSZJN2NHY5CHWXNHuq/view?usp=drive_link",
+    "https://drive.google.com/file/d/1DC1RHleNPATbt6Cr3h5vQE9OwhR77cUl/view?usp=drive_link",
   displayGreeting: true
 };
 
