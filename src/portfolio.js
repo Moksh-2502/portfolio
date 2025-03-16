@@ -95,9 +95,22 @@ const workExperiences = {
         "Using Flask created a seamless experience for users",
         "Created a fully functional E-commerce website"
       ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Flexion",
+      companylogo: require("./assets/images/flexion.JPG"), // Make sure to add this image in your assets folder
+      date: "August 2024 – Present",
+      desc: "Developed a complete E-commerce Website for Flexion",
+      descBullets: [
+        "Designed and implemented a user-friendly shopping experience",
+        "Integrated secure payment gateways for smooth transactions",
+        "Optimized website performance for faster load times and improved SEO"
+      ]
     }
   ]
 };
+
 
 const openSource = {
   showGithubProfile: "true",
