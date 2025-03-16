@@ -99,7 +99,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Flexion",
-      companylogo: require("./assets/images/flexion.JPG"), // Make sure to add this image in your assets folder
+      companylogo: require("./assets/images/flexion.jpg"), // Make sure to add this image in your assets folder
       date: "August 2024 – Present",
       desc: "Developed a complete E-commerce Website for Flexion",
       descBullets: [
