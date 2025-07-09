@@ -16,6 +16,7 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import { Analytics } from "@vercel/analytics/react";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
