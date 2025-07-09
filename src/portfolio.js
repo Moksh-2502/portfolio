@@ -85,27 +85,51 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Wisethug",
-      companylogo: require("./assets/images/wisethug.JPG"),
-      date: "May 2024 – July 2024",
-      desc: "Worked as a full stack developer and created an E-commerce Website for them",
+      role: "AI-First Software Engineer II",
+      company: "Trilogy (via Crossover)",
+      companylogo: require("./assets/images/trilogy.png"),
+      date: "April 2025 – Present",
+      desc: "Leading AI-powered SaaS product development",
       descBullets: [
-        "Implemented a Responsive Design that allowed the application to be used on various devices with the same user experience",
-        "Using Flask created a seamless experience for users",
-        "Created a fully functional E-commerce website"
+        "Engineered AI-powered functionality for enterprise SaaS platforms using TypeScript, Angular, and NestJS with LangChain microservices",
+        "Maintained 100% test coverage in clean-architecture codebase with automated CI/CD via GitHub Actions",
+        "Led KBFS team focusing on secure file systems and contributed to Flow.ai development for intelligent automation workflows"
       ]
     },
     {
-      role: "Software Engineer",
-      company: "Flexion",
-      companylogo: require("./assets/images/flexion.jpg"), // Make sure to add this image in your assets folder
-      date: "march 2025 – Present",
-      desc: "Developed a complete E-commerce Website for Flexion",
+      role: "Tech Manager",
+      company: "Wisethug Pvt Ltd",
+      companylogo: require("./assets/images/wisethug.JPG"),
+      date: "May 2023 – September 2024",
+      desc: "Led marketplace platform development with high availability",
       descBullets: [
-        "Designed and implemented a user-friendly shopping experience",
-        "Integrated secure payment gateways for smooth transactions",
-        "Optimized website performance for faster load times and improved SEO"
+        "Architected and deployed a Flask + React marketplace supporting 10K daily active users with 99.9% uptime",
+        "Implemented AWS Elastic Beanstalk deployment with auto-scaling for consistent performance during traffic spikes",
+        "Managed development team and release cycles while optimizing user acquisition funnel"
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "Techtale",
+      companylogo: require("./assets/images/techtale.png"),
+      date: "January 2025 – April 2025",
+      desc: "Optimized full-stack solutions for performance and scalability",
+      descBullets: [
+        "Built responsive interfaces with React and Next.js following modern UI/UX principles",
+        "Developed Node.js backend services with optimized MongoDB queries reducing API latency by 40%",
+        "Implemented RESTful APIs and real-time features using WebSockets for dynamic content delivery"
+      ]
+    },
+    {
+      role: "Operations Manager",
+      company: "Chegaro",
+      companylogo: require("./assets/images/chegaro.png"),
+      date: "September 2024 – March 2025",
+      desc: "Transformed e-commerce operations for efficiency and customer satisfaction",
+      descBullets: [
+        "Reduced customer resolution time from 18 hours to 6 hours through automated email systems",
+        "Implemented priority queue system for support tickets based on customer tier and issue severity",
+        "Streamlined inventory management and order fulfillment processes improving delivery metrics by 35%"
       ]
     }
   ]
@@ -118,14 +142,38 @@ const openSource = {
 };
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Some projects I worked on, shaping tech with passion and innovation",
+  title: "Projects",
+  subtitle: "Innovative solutions showcasing technical expertise and creative problem-solving",
   projects: [
     {
       image: require("./assets/images/project.jpeg"),
-      projectName: "AI-Powered Healthcare Solution",
+      projectName: "NariSuraksha",
       projectDesc:
-        "Developed a machine learning-based healthcare platform that predicts disease outcomes and helps doctors make better decisions. Technologies: Python, TensorFlow, Flask.",
+        "Women's safety mobile app with emergency SOS alerts, cloud video upload, and AI-powered gesture recognition for threat detection.",
+      footerLink: [
+        {
+          name: "View Project Details",
+          url: "https://github.com/Mayank4352/Security"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/project.jpeg"),
+      projectName: "MoneyLand",
+      projectDesc:
+        "Blockchain platform for real estate tokenization enabling fractional property ownership with secure smart contracts and transparent transactions.",
+      footerLink: [
+        {
+          name: "View Project Details",
+          url: "https://github.com/Moksh-2502/MoneyLand"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/project.jpeg"),
+      projectName: "HealthBound",
+      projectDesc:
+        "AI-powered medical diagnostic tool predicting 2,000+ conditions with 90% accuracy from symptoms input, supporting early diagnosis.",
       footerLink: [
         {
           name: "View Project Details",
@@ -135,13 +183,25 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/project.jpeg"),
-      projectName: "Naari-Suraksha",
+      projectName: "Token Launchpad",
       projectDesc:
-        "An app and an integration for women safety with features like helpline button to ai detection you can read more on github",
+        "dApp for creating and deploying custom ERC-20 tokens on Polygon with configurable parameters and live contract preview functionality.",
       footerLink: [
         {
           name: "View Project Details",
-          url: "https://github.com/Mayank4352/Naari-Suraksha"
+          url: "https://github.com/Moksh-2502/token-launchpad"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/project.jpeg"),
+      projectName: "ragktflow",
+      projectDesc:
+        "Open-source RAG system for developer knowledge transfer with contextual documentation search and automated code assistance.",
+      footerLink: [
+        {
+          name: "View Project Details",
+          url: "https://github.com/Moksh-2502/ragktflow"
         }
       ]
     }
@@ -181,6 +241,56 @@ const resumeSection = {
   display: true
 };
 
+const certificationsSection = {
+  title: "Certifications & Achievements",
+  subtitle: "Professional development and recognition",
+  certifications: [
+    {
+      title: "AI-First Engineer at Trilogy",
+      subtitle: "Selected via rigorous multi-stage Crossover hiring process focused on performance.",
+      logo: require("./assets/images/trilogy.png"),
+      certificate_link: ""
+    },
+    {
+      title: "Object-Oriented Data Structures in C++",
+      subtitle: "UIUC | Grade: 99%",
+      logo: require("./assets/images/oops.jpeg"),
+      certificate_link: "https://coursera.org/verify/JH8UBFPMR5Y2"
+    },
+    {
+      title: "Exploratory Data Analysis for ML",
+      subtitle: "IBM | Grade: 97.5%",
+      logo: require("./assets/images/ibm.jpeg"),
+      certificate_link: "https://coursera.org/verify/HUDVXSYFYLAJ"
+    },
+    {
+      title: "Supervised ML: Classification",
+      subtitle: "IBM | Grade: 91.6%",
+      logo: require("./assets/images/supervised.jpeg"),
+      certificate_link: "https://coursera.org/verify/37U3649Y23HL"
+    },
+    {
+      title: "Unsupervised Machine Learning",
+      subtitle: "IBM | Grade: 97.6%",
+      logo: require("./assets/images/unsupervised.jpeg"),
+      certificate_link: "https://coursera.org/verify/GJF2BSADMUZM"
+    },
+    {
+      title: "Improving Deep Neural Networks",
+      subtitle: "DeepLearning.AI | Grade: 97.6%",
+      logo: require("./assets/images/deep.jpeg"),
+      certificate_link: "https://coursera.org/verify/D0UN7YWVWA2Z"
+    },
+    {
+      title: "Smart India Hackathon Internal Round",
+      subtitle: "Qualified from 100+ teams for SIH internal selection.",
+      logo: require("./assets/images/sih.png"),
+      certificate_link: ""
+    }
+  ],
+  display: true
+};
+
 const contactInfo = {
   title: emoji("Contact Me"),
   subtitle: "You can reach out to me.",
@@ -205,5 +315,6 @@ export {
   blogSection,
   contactInfo,
   isHireable,
-  resumeSection
+  resumeSection,
+  certificationsSection
 };

@@ -8,6 +8,7 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Blogs from "./blogs/Blogs";
 import Education from "./education/Education";
+import Certifications from "./certifications/Certifications";
 import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
@@ -53,6 +54,7 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
+            <Certifications />
             <Blogs />
             <Profile />
             <ScrollToTopButton />
