@@ -32,35 +32,6 @@ const revealObserver = new IntersectionObserver(
 
 revealItems.forEach((item) => revealObserver.observe(item));
 
-const counters = document.querySelectorAll("[data-count]");
-const counterObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-
-      const counter = entry.target;
-      const target = Number(counter.dataset.count || 0);
-      const suffix = counter.dataset.suffix || "";
-      const duration = 900;
-      const start = performance.now();
-
-      const update = (now) => {
-        const progress = Math.min((now - start) / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3);
-        counter.textContent = `${Math.round(target * eased)}${suffix}`;
-
-        if (progress < 1) requestAnimationFrame(update);
-      };
-
-      requestAnimationFrame(update);
-      counterObserver.unobserve(counter);
-    });
-  },
-  { threshold: 0.5 }
-);
-
-counters.forEach((counter) => counterObserver.observe(counter));
-
 const sections = document.querySelectorAll("main section[id]");
 const navAnchors = document.querySelectorAll(".nav-links a");
 const sectionObserver = new IntersectionObserver(
