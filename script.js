@@ -1,5 +1,12 @@
 document.body.classList.add("js-ready");
 
+window.addEventListener("pointermove", (event) => {
+  const x = `${Math.round((event.clientX / window.innerWidth) * 100)}%`;
+  const y = `${Math.round((event.clientY / window.innerHeight) * 100)}%`;
+  document.documentElement.style.setProperty("--cursor-x", x);
+  document.documentElement.style.setProperty("--cursor-y", y);
+});
+
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 
