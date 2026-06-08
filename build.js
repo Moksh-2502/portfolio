@@ -22,6 +22,7 @@ function copyRecursive(source, destination) {
 fs.rmSync(outDir, { recursive: true, force: true });
 copyRecursive(path.join(root, "index.html"), path.join(outDir, "index.html"));
 copyRecursive(path.join(root, "styles.css"), path.join(outDir, "styles.css"));
+copyRecursive(path.join(root, "script.js"), path.join(outDir, "script.js"));
 copyRecursive(path.join(root, "assets"), path.join(outDir, "assets"));
 
 console.log("Static portfolio built to build/");
